@@ -1,13 +1,13 @@
 /* Common style */
 .grid {	
     max-width: 1000px;
-	right:0;
-	left:0;
+	
 }
 
 .grid .spk {
     max-width: 275px;
-float: left;
+right:0;
+	left:0;
 	
 }
 
