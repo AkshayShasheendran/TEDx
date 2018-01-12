@@ -6,8 +6,7 @@
 
 .grid .spk {
     max-width: 330px;
-right:0;
-	left:0;
+float:right;
 	
 }
 
