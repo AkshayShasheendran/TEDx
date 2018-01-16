@@ -1,25 +1,20 @@
 /* Common style */
-.grid {	
-    max-width: 1000px;
-	
-}
-
-.grid .spk {
+  .spk {
     max-width: 330px;
 float:right;
 	
 }
 
 @media screen and (min-width: 551px) {
-    .grid {
+      {
         margin: 10px auto 20px;
       	width: 100%;
     }
-    .grid .spk {    
+      .spk {    
         padding:22px;
         width: 33%;        	
     }
-    .grid figcaption{
+      figcaption{
         padding-top:21%;  
         line-height: normal;
     }
@@ -28,38 +23,38 @@ float:right;
         /* Hover effects */
 
 
-    .grid .spk:hover figcaption h2,
-    .grid .spk:hover figcaption p {
+      .spk:hover figcaption h2,
+      .spk:hover figcaption p {
         
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
     }
-    .grid figcaption h2 {
+      figcaption h2 {
         padding-bottom:15px;
         font-size:16px;        
     }
-    .grid figcaption p {
+      figcaption p {
         font-size:15px;        
     }
 }
 
 @media screen and (max-width: 550px) {
-    .grid {
+      {
         width:100%;        
     }
-	.grid .spk {
+	  .spk {
 		width: 48%;
         margin: 2px;
         font-size:10px;
 	}
-    .grid figcaption {
+      figcaption {
         padding-top:25%;
         line-height: normal;
     }
-    .grid figcaption p {
+      figcaption p {
         font-size:10px;
     }
-    .grid figcaption h2 {
+      figcaption h2 {
         padding-bottom:10px;
         font-size:11px;
         
@@ -67,21 +62,21 @@ float:right;
        
     /* Hover effects */
 
-    .grid .spk:hover figcaption h2,
-    .grid .spk:hover figcaption p {
+      .spk:hover figcaption h2,
+      .spk:hover figcaption p {
         -webkit-transform: translateY(5px);
         transform: translateY(5px);
     }
 
 }
 
-.grid figure {
+  figure {
 	position: relative;
 	overflow: hidden;
 	background: #333;
 }
 
-.grid figure img {
+  figure img {
 	position: relative;
 	display: block;
 	width: 100%;
@@ -90,7 +85,7 @@ float:right;
 	transition: opacity 0.3s;
 }
 
-.grid figcaption {
+  figcaption {
 	position: absolute;
 	top: 0;
 	z-index: 11;
@@ -99,7 +94,7 @@ float:right;
 	text-align: center;
 }
 
-.grid figcaption h2 {	
+  figcaption h2 {	
 	font-weight: 300;
 
     	-webkit-transition: opacity 0.5s, -webkit-transform 1s;
@@ -108,7 +103,7 @@ float:right;
 	transform: translateY(0px) scale(1);
 }
 
-.grid figcaption p {
+  figcaption p {
     	-webkit-transition: opacity 0.5s, -webkit-transform 1s;
 	transition: opacity 0.5s, transform 1s;
     	-webkit-transform: translateY(100%) scale(0.25);
@@ -117,21 +112,21 @@ float:right;
 }
 
 
-.grid figcaption p:hover {
+  figcaption p:hover {
 	-webkit-transform: translateY(100%) scale(1);
 	transform: translateY(100%) scale(1);
 
 }
 
-.grid figcaption,
-.grid figcaption h2,
-.grid figcaption p {
+  figcaption,
+  figcaption h2,
+  figcaption p {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
 /* Style for SVG */
-.grid svg {
+  svg {
 	position: absolute;
 	top: 0px; /* fixes rendering issue in FF */
 	z-index: 10;
@@ -139,7 +134,7 @@ float:right;
     height: 100%;
 }
 
-.grid .spk svg .st0{
+  .spk svg .st0{
     fill:#FF0000;
     fill-opacity:0.4;    	
        	-webkit-transform: translateY(120px);
@@ -148,7 +143,7 @@ float:right;
 	transition: opacity 0.5s, transform 1s;
 }
 
- .grid .spk:hover svg .st0{
+   .spk:hover svg .st0{
         fill-opacity:0.4; 
        	-webkit-transform: translateY(-64px);
 	transform: translateY(-64px) ;
@@ -156,7 +151,7 @@ float:right;
 	transition: opacity 0.5s, transform 1s;
 }
 
-.grid .spk svg .st1{
+  .spk svg .st1{
     fill:aqua;
     fill-opacity:0.4;    	
        	-webkit-transform: translateY(120px);
@@ -165,7 +160,7 @@ float:right;
 	transition: opacity 0.5s, transform 1s;
 }
 
- .grid .spk:hover svg .st1{
+   .spk:hover svg .st1{
          fill-opacity:0.4;  
 
        	-webkit-transform: translateY(-64px);
@@ -187,36 +182,33 @@ float:right;
     	
 }
 
-.figure .figcaption .overlaya {
-  position: absolute;
+.overlaya {
+ 
   bottom: 0;
         padding-left:10px;
-        text-align:left;
+   
   background-color: rgba(0, 255, 255,0.6);   
-  height:50%;
-    padding-top:4px;
-    width:100%;
-  transition: .5s ease;
+ 
     	
 }
 
-.grid .spk:hover .overlaya,.grid .spk:hover .overlayr {
+  .spk:hover .overlaya,  .spk:hover .overlayr {
 	opacity: 0;
 }
 
-.grid .aqua {
+  .aqua {
     color:#000;
 }
 
-.grid .redted{
+  .redted{
 	color:#fff;
 }
 
-.grid .spk:hover figcaption p {
+  .spk:hover figcaption p {
 	opacity: 1;
 }
 
-.grid .spk:hover figcaption h2 {
+  .spk:hover figcaption h2 {
 	opacity: 0;
 }
 
