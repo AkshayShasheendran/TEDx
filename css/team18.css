@@ -41,15 +41,15 @@
         
     }  .team figure figcaption p{
     position:absolute;
-   -webkit-transform: translateY(-115px)translateX(60px);
-	transform: translateY(-115px)translateX(60px);
+   -webkit-transform: translateY(-110px)translateX(55px);
+	transform: translateY(-110px)translateX(55px);
 }
 }
 @media (max-width: 551px) {
     .team figure img{
-        margin-right:2px;
-        margin-left:2px;
-        max-width:130px;	
+        margin-right:1px;
+        margin-left:1px;
+        max-width:128px;	
     } 
     .team figure figcaption p{
     position:absolute;
