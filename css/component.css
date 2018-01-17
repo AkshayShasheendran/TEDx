@@ -1,12 +1,12 @@
 /* Common style */
 .grid {	
-    max-width: 1000px;
+    max-width: 1200px;
 	
 }
 
 .grid .spk {
-    max-width: 330px;
-float:right;
+    max-width: 100%;
+float:left;
 	
 }
 
