@@ -41,8 +41,8 @@
         
     }  .team figure figcaption p{
     position:absolute;
-   -webkit-transform: translateY(-110px)translateX(55px);
-	transform: translateY(-110px)translateX(55px);
+   -webkit-transform: translateY(-115px)translateX(60px);
+	transform: translateY(-115px)translateX(60px);
 }
 }
 @media (max-width: 551px) {
@@ -53,8 +53,8 @@
     } 
     .team figure figcaption p{
     position:absolute;
-   -webkit-transform: translateY(-95px)translateX(35px);
-	transform: translateY(-95px)translateX(35px);
+   -webkit-transform: translateY(-82px)translateX(22px);
+	transform: translateY(-82px)translateX(22px);
 }
     .team h5{
         font-size: 14px;
