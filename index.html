@@ -197,9 +197,9 @@
                             <div id="a1" class="layer" data-depth="0.80" style=""><img src="img/svg/about_grey.svg" style="-webkit-transform: rotate(100deg);-ms-transform: rotate(100deg);transform: rotate(100deg);width:50px;opacity:0.8;bottom:10px;right:40px;left:50px;top:610px;"></div>
                             <div id="a2" class="layer" data-depth="0.60"><img src="img/svg/about_cyan.svg" style="-webkit-transform: rotate(345deg);-ms-transform: rotate(345deg);transform: rotate(345deg);min-width:250px;opacity:0.8;bottom:10px;right:40px;left:800px;top:200px;"></div>
                             <div id="r2" class="layer" data-depth="0.40"><img src="img/svg/about_red.svg" style="-webkit-transform: rotate(350deg);-ms-transform: rotate(350deg);transform: rotate(350deg);min-width:160px;opacity:0.7;bottom:10px;right:40px;left:1000px;top:700px;"></div>
-                            <div id="a3" class="layer" data-depth="0.20"><img src="img/svg/about_cyan.svg" style="-webkit-transform: rotate(20deg);-ms-transform: rotate(20deg);transform: rotate(20deg);min-width:50px;opacity:0.8;bottom:10px;right:40px;left:100px;top:900px;"></div>
+                            <div id="a3" class="layer" data-depth="0.20"><img src="img/svg/about_cyan.svg" style="-webkit-transform: rotate(20deg);-ms-transform: rotate(20deg);transform: rotate(20deg);min-width:50px;opacity:0.8;bottom:10px;right:40px;left:125px;top:800px;"></div>
                             <div id="r3" class="layer" data-depth="0.70"><img src="img/svg/about_red.svg" style="-webkit-transform: rotate(130deg);-ms-transform: rotate(130deg);transform: rotate(130deg);min-width:100px;opacity:0.7;bottom:100px;right:40px;left:1250px;top:0px;"></div>
-                            <div id="a3" class="layer" data-depth="0.20"><img src="img/svg/about_grey.svg" style="-webkit-transform: rotate(200deg);-ms-transform: rotate(200deg);transform: rotate(200deg);width:150px;opacity:0.8;bottom:10px;left:500px;top:650px;"></div>
+                            <div id="a3" class="layer" data-depth="0.20"><img src="img/svg/about_grey.svg" style="-webkit-transform: rotate(200deg);-ms-transform: rotate(200deg);transform: rotate(200deg);width:150px;opacity:0.8;bottom:10px;left:500px;top:550px;"></div>
                         </div>
                     </div>                
                     
@@ -233,7 +233,8 @@
                 <div class="row py-5 px-3  white-text">                    
                     <!--Grid columns-->
                     <div class="col-md-6 col-xs-12 text-left highlighttext  wow fadeInUp">
-                        <h4 class="highlighter"><span class="highlighter-name">What is <b style="font-weight:800">TEDxSomaiyaVidyavihar?</b></span></h4>
+                        <h4 class="highlighter desktop-only"><span class="highlighter-name">What is <b style="font-weight:800">TEDxSomaiyaVidyavihar?</b></span></h4>
+                        <h4 class="highlighter mobile-only">What is <span class="highlighter-name"><b style="font-weight:800">TEDxSomaiyaVidyavihar?</b></span></h4>
                         <p class="font-italic">In the maiden edition of TEDxSomaiyaVidyavihar, we aim to establish innovative thinking among young minds, thus
                         motivating them to become responsible citizens of the world. Our vision is to make TEDx Somaiya Vidyavihar a platform where the trailblazers of our society can showcase ideas that impart knowledge and inspire our community.</p>
                     </div>
@@ -757,11 +758,7 @@
     </script>
     
     <script>
-      //Closing the collapse on navbar onclick
-      $('.navbar-collapse a').click(function(){
-      $(".navbar-collapse").collapse('hide');
-      });
-        
+         
       $(document).ready(function(){
       // Add smooth scrolling to all links in navbar + footer link
       $(".navbar a, a[href='#myPage'], a[href='#about'], a[href='#contact'], a[href='#gallery']  ").on('click', function(event) {
