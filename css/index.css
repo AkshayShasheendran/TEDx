@@ -328,15 +328,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363636', end
   left: 50%;
 }
 
-#filtermap{
-    background: rgba(123, 255, 255, 0.5);
-    z-index:0;
-    
-}
 
 .main-login{
     background-color: #e2e2e2;
-    padding: 25px 40px 25px;
+    padding: 25px 25px 25px;
 }
 
 .overlayteam {
