@@ -6568,8 +6568,8 @@ body.scrollable {
   background-image: url(../img//svg/arrow_right.svg); }
 
 .carousel .carousel-indicators li {
-  max-width: 10px;
-  height: 10px;
+  max-width: 0px;
+  height: 0px;
   border-radius: 50%;
   cursor: pointer; }
 
